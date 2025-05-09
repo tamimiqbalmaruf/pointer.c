@@ -20,7 +20,9 @@ int main()
             if (i % 2 != 0)
             {
                 printf("#");
-            }else{
+            }
+            else
+            {
                 printf("-");
             }
         }
@@ -30,9 +32,9 @@ int main()
         space--;
     }
 
-    int star2 = n+1, space2 = 1;
+    int star2 = star - 4, space2 = 1;
 
-    for (int i = 1; i <= n-1; i++)
+    for (int i = n-1; i > 0; i--)
     {
 
         for (int j = 1; j <= space2; j++)
@@ -45,7 +47,9 @@ int main()
             if (i % 2 != 0)
             {
                 printf("#");
-            }else{
+            }
+            else
+            {
                 printf("-");
             }
         }
